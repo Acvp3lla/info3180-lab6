@@ -56,11 +56,13 @@ const NewsList =Vue.component('news-list',{
             <h2>News</h2>
             <div class="cont">
                 <ul v-for="article in articles" class="news__list">
+                <a :href="article.url" target="_blank">
                     <div class="outside">
                         <h4>{{ article.title }}</h4>
-                        <img :src="article.urlToImage" height="180" width="180" alt="photo"/>
+                        <img :src="article.urlToImage" height="185" width="320" alt="photo"/>
                         <p>{{ article.description }}</p>
                     </div>
+                </a>
                 </ul>
             </div>
         </div>
