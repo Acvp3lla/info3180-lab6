@@ -5,3 +5,16 @@ body {
 footer  {
     padding-top: 20px;
 }
+
+.outside{
+    border: solid 5px #0050ff;
+    border-radius: 5px;
+    width: 300px;
+    height: 400px;
+    background-color: #ddfffd;
+}
+
+.cont{
+    display: grid;
+	grid-template-columns: repeat(3,.03fr);
+}
