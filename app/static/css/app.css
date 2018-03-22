@@ -12,9 +12,14 @@ footer  {
     width: 350px;
     height: 450px;
     background-color: #ddfffd;
+    color: black;
 }
 
 .cont{
     display: grid;
 	grid-template-columns: repeat(3,.03fr);
+}
+
+a:link {
+    text-decoration: none;
 }
